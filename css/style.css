@@ -26,7 +26,7 @@ VERSION : 1.1
        13> CLIENT
        14> FOOTER
        15> ANIMATON
-       
+
 -------------------------------------------------------*/
 
 
@@ -44,10 +44,10 @@ VERSION : 1.1
 	RESET
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-*{ 
-	padding: 0; 
-	margin: 0; 
-	vertical-align: baseline; 
+*{
+	padding: 0;
+	margin: 0;
+	vertical-align: baseline;
 }
 
 html
@@ -56,7 +56,7 @@ html
 }
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,hr,th,td {
-	margin:0; 
+	margin:0;
 	padding:0;
 }
 
@@ -73,7 +73,7 @@ body {
         font-family: 'Lato', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	
+
 }
 
 
@@ -92,7 +92,7 @@ font-weight: 900;
 }
 
 h5{
-	
+
 	font-weight: 700;
 	line-height: 20px;
 }
@@ -101,14 +101,14 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
-a{ 
+a{
   text-decoration: none !important;
   transition:all 0.3s linear;
   -webkit-transition:all 0.3s linear;
   -moz-transition:all 0.3s linear;
   -ms-transition:all 0.3s linear;
    -o-transition:all 0.3s linear;
-  
+
 }
 ul
 {
@@ -122,7 +122,7 @@ ul
 }
 
 p.intro{
-	font-size:0.9em;
+	font-size:1.2em;
 	margin: 14px 0;
 	line-height: 24px;
 	font-family: 'Open Sans', sans-serif;
@@ -136,7 +136,7 @@ p.intro{
     width:100%;
     height:100%;
     position:relative;
-    
+
 }
 
 .rightText
@@ -294,13 +294,13 @@ div.preloader {
 
 /*	RAMSH-STYLE STARTS HERE
 ------------------------------*/
- 
+
 /* Navigation */
 .ramsh-menu{
 	padding: 20px;
 	transition: all 0.8s;
          box-shadow:2px 2px 3px 3px rgba(0,0,0,0.3);
-         
+
 }
 
 .ramsh-menu a.navbar-brand {
@@ -312,17 +312,17 @@ font-weight: 900;
 
 
 .ramsh-menu.navbar-default .navbar-nav > li > a {
-	
+
 	color: #222;
 	letter-spacing: 1px;
         font-size:.73em;
        //text-shadow:1px 0px rgba(0,0,0,0.5);
 }
 
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-	
+
 	background-color: transparent;
 	font-weight: 700;
 }
@@ -330,9 +330,9 @@ font-weight: 900;
 .navbar-toggle {
 	border-radius:20%;
         transition:all 1s;
-        
+
 	}
-.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
 	box-shadow:2px 2px 3px 3px rgba(0,0,0,0.4);
         -webkit-box-shadow:2px 2px 3px 3px rgba(0,0,0,0.4);
@@ -342,27 +342,27 @@ font-weight: 900;
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
 	}
-        
-        
+
  /*   NAVIGATION ANIMATION
  ---------------------------------*/
-.ramsh-menu ul li:last-child::after{ 
-content:""; 
-position:absolute; 
-top:60px; 
-display:block; 
-width:90%; 
-height:90%; 
+ /*
+.ramsh-menu ul li:last-child::after{
+content:"";
+position:absolute;
+top:60px;
+display:block;
+width:90%;
+height:90%;
 top:5px;
 left:50%;
 margin-left:-45%;
 background:transparent;
 border:1px solid rgba(0,0,0,0.3);
 //box-shadow:1px 1px 1px 2px rgba(0,0,0,0.2);
-	transition: all .5s ease; 
-	-webkit-transition: all .5s ease; 
-	-moz-transition: all .5s ease; 
-	-ms-transition: all .5s ease; 
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
 	-o-transition: all .5s ease;
         z-index:-1;
         transform:skew(40deg,5deg);
@@ -377,7 +377,7 @@ border:1px solid rgba(0,0,0,0.3);
     left:-550%;
     width:3.6em;
     background:#222
-    
+
 }
 
 .ramsh-menu ul li:nth-child(2):hover ~ li:last-child::after,.ramsh-menu ul li:nth-child(2):focus ~ li:last-child::after
@@ -415,10 +415,10 @@ border:1px solid rgba(0,0,0,0.3);
     background:#222;
 }
 
+*/
 
 
 
-       
 /*	MAIN HEADING
 ------------------------------*/
 
@@ -426,7 +426,8 @@ border:1px solid rgba(0,0,0,0.3);
 
 .main-heading
 {
-   background: url(../images/main.jpg) center center no-repeat;
+   /*background: url(../images/main.jpg) center center no-repeat;*/
+    background: url(http://www.game-insight.com/thumb/350x240/uploads/news/53171a395b6a0fd0524f77d6.png) center center no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
 	color: #cfcfcf;
@@ -448,7 +449,7 @@ border:1px solid rgba(0,0,0,0.3);
 
 .overlay > .container
 {
-    padding:170px 0px;    
+    padding:170px 0px;
 }
 
 .main-heading >.overlay
@@ -460,7 +461,7 @@ p.lead
    position:relative;
    top:5px;
    color:#e3e3e3;
-   
+
 }
 
 
@@ -495,7 +496,7 @@ a.fa.fa-angle-down {
 	transition: all 0.5s;
 }
 a.fa.fa-angle-down:hover{
-	
+
 	background:rgba(0,0,0,0.7);
         box-shadow:2px 1px 2px 2px rgba(0,0,0,0.3);
         margin-top:190px;
@@ -516,7 +517,7 @@ ul.aboutList li{
 	line-height: 30px;
 	font-family: 'Open Sans', sans-serif;
 }
-ul.aboutList li span{ 
+ul.aboutList li span{
 	margin-right: 10px;
 }
 
@@ -528,7 +529,7 @@ ul.aboutList li span{
 	font-weight: 300;
 }
 .sectionTitle .line{
-	
+
 	height: 5px;
 	width: 120px;
 	text-align: center;
@@ -550,7 +551,7 @@ ul.aboutList li span{
 
 .our-services >.container
 {
-    padding:90px 0px;    
+    padding:90px 0px;
 }
 
 .O-service i
@@ -558,7 +559,7 @@ ul.aboutList li span{
     font-size:2em;
  }
 .O-service i.fa {
-	
+
 	width: 100px;
 	height: 100px;
 	padding: 32px 25px;
@@ -574,14 +575,14 @@ ul.aboutList li span{
         -ms-transition: all 0.5s;
         -ms-box-shadow:2px 5px 2px 2px rgba(0,0,0,0.3);
         cursor:pointer;
-        
+
 }
 
 .O-service i.fa:hover,.O-service:hover>i.fa{
-	
+
   -webkit-box-shadow:1px 4px 1px 1px rgba(0,0,0,0.3);
    -moz-box-shadow:1px 4px 1px 1px rgba(0,0,0,0.3);
-     -ms-box-shadow:1px 4px 1px 1px rgba(0,0,0,0.3);  
+     -ms-box-shadow:1px 4px 1px 1px rgba(0,0,0,0.3);
 }
 .O-service
 {
@@ -604,7 +605,7 @@ ol.type li:after{
 	content: ' | ';
 	margin-left: 20px;
 }
-ol.type li:last-child:after 
+ol.type li:last-child:after
 {
  content: '';
 }
@@ -701,7 +702,7 @@ z-index: 1;
 	opacity: 1;
 }
 
-.categories{ 
+.categories{
 	padding: 10px 0;
 }
 
@@ -714,7 +715,7 @@ portfoio i.fa {
         -webkit-border-radius:50%;
         -moz-border-radius:50%;
         -ms-border-radius:50%;
-	
+
 }
 
 /*	OUR TEAM
@@ -778,7 +779,7 @@ owl carousel----------------------------------------------------------*/
 	transition: all 0.5s;
 }
 
-.owl-theme .owl-controls .owl-page.active span, 
+.owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
 	filter: Alpha(Opacity=100);
 	opacity: 1;
@@ -878,7 +879,7 @@ button.btn.tf-btn.btn-default {
 	border-radius: 0;
 	padding: 10px 40px;
 	color: #ffffff;
-	
+
 }
 
 .btn:active, .btn.active {
@@ -888,11 +889,11 @@ button.btn.tf-btn.btn-default {
 	box-shadow: none;
 }
 
-.btn:focus, 
-.btn:active:focus, 
-.btn.active:focus, 
-.btn.focus, 
-.btn:active.focus, 
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
 .btn.active.focus {
 	outline: thin dotted;
 	outline: none;
@@ -931,9 +932,9 @@ ul.footer-social li{
         text-shadow:1px 1px rgba(0,0,0,0.3);
 }
 .footer i.fa:hover{
-	
+
 	color: #ffffff;
-       
+
 }
 
 /*ANIMATION*/
